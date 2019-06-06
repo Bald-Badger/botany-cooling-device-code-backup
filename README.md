@@ -17,4 +17,24 @@ step 3, add your code
   
 step 4, use the code
   1. go into the Ver3 folder you just downloaded, go into there, doulbe click on the Ver3.ino, arduino software should pop out
+  2. change the 'target_temp' variable to the value you like
+  3. find out whick port of your computer is the arduino is using
+    a) connect arduino to your PC 
+    b) open Win10 device manager (google it if you can't find it)
+    c) click on "port (COM and LPT)" (something like this)
+    d) see what's there
+    e) unplug arduino
+    e) see what's missing
+    f) plug arduino back in
+    g) see what's back
+    h) the new thing shouwing up is the arduino, remember its port number
+  4. keep arduino connected, open arduino software
+  5. go to tools-development board; choose arduino/Genuino Uno
+  6. go to tools- port, choose the port you saw in step 4-3-h
+  7. upload the code by clicking the right arrow on the left upper corner of the arduino software
+  8. the code should upload successfully, email me if there any problem, Dr. Barker have my email
+  9. power up and do experiments!!
   
+step 5
+  if you want to monitor temprearure, after step 4-78, open tools-serial monitor, and choose port rate of 57600
+  one or 2 error message should appear on the serial monitor once you open it, as well as powering it on. this is normal due to voltage   inrush 
