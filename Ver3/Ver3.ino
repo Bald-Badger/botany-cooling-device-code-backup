@@ -5,6 +5,8 @@
 //      GND: GND
 //      DATA: 7
 float target_temp = 5;// change this based on your need
+float power = 40; // init power
+                  // use 45 for 5℃, and decerase by one for each target degree greater than 5
 
 int pinDHT22 = 3; // pin for DHT22 data transmission
 int fan = 5; // pin should've used to contorl the fan (now disabled)
