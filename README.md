@@ -1,6 +1,7 @@
 # botany-cooling-device-code-backup
-this is the instructions (as well as code back up ) of the cooling device I've been working on for Dr. Barker
-all instructions are based on Win 10, for other OS versions, Google can do a better job than me.
+this is the instructions (as well as code back up ) of the cooling device I've been working on for Dr. Barker.
+
+all instructions are based on windows 10, for other OS versions, Google can do a better job than me.
 
 step 1, install arduino software (windows 10 only) :
   1. go to Microsoft Store (should be in your computer)
@@ -38,25 +39,25 @@ step 4, use the code:
   8. the code should upload successfully
   9. power up and do experiments!!
   
-step 5, Temprature monitor:
-  if you want to monitor temprearure, after step 4-78, open tools-serial monitor, and choose port rate of 57600
-  one or 2 error message should appear on the serial monitor once you open it, as well as powering it on. this is normal due to voltage   inrush 
+step 5, Temprature monitor (optional):
+  if you want to monitor temprearure, after step 4-8, open tools-serial monitor, and choose port rate of 57600
+  one or two error message might appear on the serial monitor once you open it, as well as powering it on. this is normal due to voltage   inrush.
   
 step 6, how to use the device:
   1. plug the arduino to a power source (like your PC)
-  2. give a good press on the blue relay on the device (the same force you pet your dog) to make sure the thermal contact of the power transistor below that relay. 
+  2. give a good press on the blue relay on the device (the same force as you petting your dog) to make sure the thermal contact of the power transistor below that relay. 
   3. pulg in the main power cable
   4. the tempreature should stablize in around 2 minutes
   5. attatch the plant leaf on the white cooling plate.
 
 Notice and warnings:
-  1. do not operate this device over one hour, not because it would harm the device, but because I haven't pressure tested it over one hour, and I have no idea what would happed beyound that 
+  1. do not operate this device over one hour, not because it would harm the device, but I haven't pressure tested it over one hour, and I have no idea what would happed beyound that 
   2. do step 6-2 again, it's very important. device may overheat and broke if not performed.
   3. do not touch any moving part (e.g. fan) or any metal part (e.g. power supply).
   4. contact Marvin for any electrical issue, and contact me for any mechanical or programming issue. 
      Dr. Barker have contact info of both of us.
-  5. any tempreature fluctuation ± 0.6℃ after powering on for 2 minutes is expected and normal, 
-     not reaching in this range is considered a programming isuue, and please contact me.
+  5. any tempreature fluctuation ± 0.6℃ around target tempreature after powering on for 2 minutes is expected and normal, 
+     breaking this range is considered a programming isuue, and please contact Shuai.
      
  Contributions:
    Shuai Zhang: circuit diagram design, assembly, programming
